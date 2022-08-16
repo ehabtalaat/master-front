@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> About Us</title>
+    <!-- main css -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="scss/main.min.css" />
+    <!-- main css -->
+
+    <!-- responsive -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- responsive -->
+
+    <!-- swiper -->
+    <link rel="stylesheet" href="css/swiper-demos.css">
+    <!-- swiper -->
+
+    <!-- animation -->
+    <link rel="stylesheet" href="css/aos-anmite.css" />
+    <!-- animation -->
+    <!-- ? Favicon -->
+    <link rel="icon" href="./image/logo-icon.ico" type="image" />
+    <!-- ? Favicon -->
+</head>
+
+<body>
+    <!---------------------- start loader -------------------------------------------->
+    <div id="preloader"></div>
+    <!---------------------- finish loader -------------------------------------------->
+    <!---------------------- start scroll-up -------------------------------------------->
+    <a id="button" class="scroll-up"><i class="bi bi-chevron-up"></i></a>
+    <!---------------------- finish scroll-up -------------------------------------------->
+
+    <!-- =========== ? NavBar =========== -->
+    <nav class="navbar navbar-expand-lg" id="navbar">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="image/logo black.jpg" alt="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about-us.html"> About us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">Our Services</a>
+
+                        <!-- strat dropdown -->
+                        <ul class="dropdown_service">
+                            <li class="dropdown_item_service">
+                                <a class="dropdown_link_service" href="service.html">
+                                    <img src="image/serv col1.png" alt="service">
+                                    <h6>Law Cases</h6>
+                                </a>
+                            </li>
+                            <li class="dropdown_item_service">
+                                <a class="dropdown_link_service" href="service.html">
+                                    <img src="image/serv ico2.png" alt="service">
+                                    <h6> Contract Drafting</h6>
+                                </a>
+                            </li>
+
+                            <li class="dropdown_item_service">
+                                <a class="dropdown_link_service" href="service.html">
+                                    <img src="image/serv ico3.png" alt="service">
+                                    <h6> Leading Businesses</h6>
+                                </a>
+                            </li>
+
+                            <li class="dropdown_item_service">
+                                <a class="dropdown_link_service" href="service.html">
+                                    <img src="image/serv ico4.png" alt="service">
+                                    <h6> Foreign Investment</h6>
+                                </a>
+                            </li>
+
+                            <li class="dropdown_item_service">
+                                <a class="dropdown_link_service" href="service.html">
+                                    <img src="image/serv ico5.png" alt="service">
+                                    <h6> ريادة الأعمال</h6>
+                                </a>
+                            </li>
+
+                            <li class="dropdown_item_service">
+                                <a class="dropdown_link_service" href="service.html">
+                                    <img src="image/serv ico6.png" alt="service">
+                                    <h6> Commercial And Company Services</h6>
+                                </a>
+                            </li>
+
+                            <li class="dropdown_item_service">
+                                <a class="dropdown_link_service" href="service.html">
+                                    <img src="image/serv ico7.png" alt="service">
+                                    <h6> Bankruptcy And Liquidation </h6>
+                                </a>
+                            </li>
+
+                            <li class="dropdown_item_service">
+                                <a class="dropdown_link_service" href="service.html">
+                                    <img src="image/serv ico8.png" alt="service">
+                                    <h6> Law
+                                        Cases </h6>
+                                </a>
+                            </li>
+
+                            <li class="dropdown_item_service">
+                                <a class="dropdown_link_service" href="#">
+                                    <img src="image/serv ico9.png" alt="service">
+                                    <h6> Contract
+                                        Drafting </h6>
+                                </a>
+                            </li>
+
+                            <li class="dropdown_item_service">
+                                <a class="dropdown_link_service" href="#">
+                                    <img src="image/serv ico10.png" alt="service">
+                                    <h6> Foreign
+                                        Investment </h6>
+                                </a>
+                            </li>
+
+                        </ul>
+                        <!-- strat dropdown -->
+
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link"> legal library</a>
+                        <ul class="dropdown_service second">
+                            <li class="dropdown_item_service">
+                                <a class="dropdown_link_service" href="regulation.html">
+                                    <!-- <img src="image/serv col1.png" alt="blog"> -->
+                                    <h6> Regulations and Regulations</h6>
+                                </a>
+                            </li>
+                            <li class="dropdown_item_service">
+                                <a class="dropdown_link_service" href="blog.html">
+                                    <!-- <img src="image/serv ico2.png" alt="BLOG"> -->
+                                    <h6> Blog</h6>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="connect.html"> Contact Us</a>
+                    </li>
+                </ul>
+                <div class="inquery_btn button">
+                    <a href="inqury.html" class="btn first"> Have a question ?</a>
+                </div>
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        العربية
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        <li><a class="dropdown-item" href="#"> English</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </nav>
+    <!-- =========== ? NavBar =========== -->
+
+    <!---------------------- start header -------------------------------------------->
+    <header style="background-image: url('image/Path\ 119.png') ;">
+        <div class="content">
+            <h1> About Us</h1>
+        </div>
+    </header>
+    <!---------------------- finish header -------------------------------------------->
+
+
+    <!---------------------- start about us -------------------------------------------->
+    <section class="about_us" data-aos="fade-up" data-aos-duration="3000">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-12">
+                    <div class="main-title">
+                        <img src="image/m.png" alt="logo">
+                        <h2> Why Choosing Mastery Lawfirm ?</h2>
+                        <p>Master Law Firm To Facilitate All Legal Solutions Through Our Extensive Professional
+                            Experience And Tireless Teamwork</p>
+                    </div>
+                    <div class="vision_container">
+                        <div class="vision">
+                            <div class="img">
+                                <img src="image/vis1.png" alt="vision">
+                            </div>
+                            <div class="text">
+                                <h5>Our Vission</h5>
+                                <p>To Build An Extraordinary Customer-Client Bond In Order To Meet The Customer's
+                                    Requirements And Needs</p>
+                            </div>
+                        </div>
+                        <div class="vision">
+                            <div class="img">
+                                <img src="image/vis2.png" alt="vision">
+                            </div>
+                            <div class="text">
+                                <h5>Our Mission </h5>
+                                <p>By Applying Precise Methods And Technical Standards That Comply With The Customer's
+                                    Field Of Work</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="button">
+                        <a href="connect.html" class="btn first">contact us</a>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-12">
+                    <div class="img">
+                        <img src="image/about.png" alt="about">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!---------------------- finish about us -------------------------------------------->
+
+    <!---------------------- start choose us -------------------------------------------->
+    <section class="service_section" data-aos="fade-up" data-aos-duration="3000">
+        <div class="container">
+            <div class="main-title pb-5">
+                <img src="image/m.png" alt="logo">
+                <h2>Services We Provide</h2>
+                <p class="text-center">If you need any help in law cases, you will need the very best defense attorneys in KSA. We are
+                    especially skilled in the following practice areas.</p>
+
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-12">
+                    <div class="boxes">
+                        <div class="box">
+                            <div class="text">
+                                <h6>Perfection And Craftsmanship</h6>
+                                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                                    tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero
+                                    eos et accusam</p>
+                            </div>
+                            <div class="img">
+                                <img src="image/cho1.png" alt="choise">
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="text">
+                                <h6>Credibility And Confidentiality</h6>
+                                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                                    tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero
+                                    eos et accusam</p>
+                            </div>
+                            <div class="img">
+                                <img src="image/cho2.png" alt="choise">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12">
+                  <div class="img_choise">
+                    <img src="image/cho3.png" alt="">
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12">
+                    <div class="boxes">
+                        <div class="box">
+                            <div class="text">
+                                <h6>Perfection And Craftsmanship</h6>
+                                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                                    tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero
+                                    eos et accusam</p>
+                            </div>
+                            <div class="img">
+                                <img src="image/cho1.png" alt="choise">
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="text">
+                                <h6>Credibility And Confidentiality</h6>
+                                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                                    tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero
+                                    eos et accusam</p>
+                            </div>
+                            <div class="img">
+                                <img src="image/cho2.png" alt="choise">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!---------------------- finish choose us -------------------------------------------->
+
+    <!---------------------- start our service -------------------------------------------->
+    <section class="our_service bg-white" data-aos="fade-up" data-aos-duration="3000">
+        <div class="container">
+            <div class="main-title">
+                <img src="image/m.png" alt="logo">
+                <h2>Services We Provide</h2>
+                <p>If you need any help in law cases, you will need the very best defense attorneys in KSA. We are
+                    especially skilled in the following practice areas.</p>
+
+            </div>
+            <div class="service_boxes">
+                <div class="box border border-1">
+                    <div class="content">
+                        <div class="img">
+                            <img src="image/serv4.png" alt="serve1">
+                        </div>
+                        <h6>Foreign
+                            Investment</h6>
+                        <a href="service.html"> Read More <i class="bi bi-arrow-right-short"></i></a>
+                    </div>
+
+                </div>
+                <div class="box border border-1">
+                    <div class="content">
+                        <div class="img">
+                            <img src="image/serv4.png" alt="serve1">
+                        </div>
+                        <h6>Foreign
+                            Investment</h6>
+                        <a href="service.html"> Read More <i class="bi bi-arrow-right-short"></i></a>
+                    </div>
+
+                </div>
+                <div class="box border border-1">
+                    <div class="content">
+                        <div class="img">
+                            <img src="image/serv4.png" alt="serve1">
+                        </div>
+                        <h6>Foreign
+                            Investment</h6>
+                        <a href="service.html"> Read More <i class="bi bi-arrow-right-short"></i></a>
+                    </div>
+
+                </div>
+                <div class="box border border-1">
+                    <div class="content">
+                        <div class="img">
+                            <img src="image/serv4.png" alt="serve1">
+                        </div>
+                        <h6>Foreign
+                            Investment</h6>
+                        <a href="service.html"> Read More <i class="bi bi-arrow-right-short"></i></a>
+                    </div>
+
+                </div>
+                <div class="box border border-1">
+                    <div class="content">
+                        <div class="img">
+                            <img src="image/serv4.png" alt="serve1">
+                        </div>
+                        <h6>Foreign
+                            Investment</h6>
+                        <a href="service.html"> Read More <i class="bi bi-arrow-right-short"></i></a>
+                    </div>
+
+                </div>
+                <div class="box border border-1">
+                    <div class="content">
+                        <div class="img">
+                            <img src="image/serv4.png" alt="serve1">
+                        </div>
+                        <h6>Foreign
+                            Investment</h6>
+                        <a href="service.html"> Read More <i class="bi bi-arrow-right-short"></i></a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="button">
+                <a href="service.html" class="second btn"> View All</a>
+            </div>
+
+        </div>
+    </section>
+
+    <!---------------------- finish our service -------------------------------------------->
+
+    <!-- Strat footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-12 col-12">
+                    <div class="logo">
+                        <img src="image/logo.png" alt="logo">
+                    </div>
+                    <div class="expert">
+                        <p>
+                            Master Law Firm to facilitate all legal solutions through our extensive professional
+                            experience and tireless teamwork
+                        </p>
+                    </div>
+
+                    <div class="qpr" id="content">
+                        <h6> Mastery Profile</h6>
+                    </div>
+                    <div id="editor"></div>
+                    <button id="cmd"><img src="image/qpr.png" alt="qpr"> </button>
+                    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.5.3/jspdf.debug.js"
+                        integrity="sha384-NaWTHo/8YCBYJ59830LTz/P4aQZK1sS0SneOgAvhsIl3zBu8r9RevNg5lHCHAuQ/"
+                        crossorigin="anonymous"></script>
+
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-12">
+                    <div class="comuncation_information">
+                        <h2 class="header_footer"> Addresses</h2>
+                        <div class="boxes">
+                            <div class="box">
+                                <h6>Address :</h6>
+                                <div>
+                                    <p class="parg">
+                                        Kingdom of Saudi Arabia, 6858 - 12361 Riyadh Juma Center Office 503
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="box">
+                                <h6>Phone Num: </h6>
+                                <div>
+                                    <ul>
+                                        <li>
+                                            <a class="parg" href="tel:01093140277"> 0109654245125414 </a>
+                                        </li>
+                                        <li>
+                                            <a class="parg" href="tel:01093140277"> 0109654245125414 </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="box">
+                                <h6>E-mail:</h6>
+                                <div>
+                                    <a class="parg" href="mailto:someone@yoursite.com"> mt7899@gmail </a>
+                                </div>
+                            </div>
+
+                        </div>
+                        <ul class="social_icon">
+                            <li><a target="__blank" href="#">
+                                    <i class="bi bi-linkedin"></i>
+                                </a></li>
+
+                            <li><a target="__blank" href="#">
+                                    <i class="bi bi-facebook"></i>
+                                </a></li>
+
+                            <li><a target="__blank" href="#">
+                                    <i class="bi bi-twitter"></i>
+                                </a></li>
+                            <li><a target="__blank" href="#">
+                                    <i class="bi bi-instagram"></i>
+                                </a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="important_link">
+                        <h2 class="header_footer"> Quick Links</h2>
+                        <ul>
+                            <li><a class="parg" href="index.html" target="_blank"> Home<i
+                                        class="bi bi-arrow-right"></i></a></li>
+                            <li><a class="parg" href="about-us.html" target="_blank"> About Us <i
+                                        class="bi bi-arrow-right"></i></a></li>
+                            <li><a class="parg" href="service.html" target="_blank">Our Services <i
+                                        class="bi bi-arrow-right"></i></a></li>
+                            <li><a class="parg" href="blog.html" target="_blank"> Blog<i
+                                        class="bi bi-arrow-right"></i></a></li>
+                            <li><a class="parg" href="connect.html" target="_blank"> Contact Us <i
+                                        class="bi bi-arrow-right"></i></a></li>
+                            <li><a class="parg" href="faq.html" target="_blank">FAQ <i
+                                        class="bi bi-arrow-right"></i></a>
+                            </li>
+                            <li><a class="parg" href="privacy.html" target="_blank">Privacy Policy <i
+                                        class="bi bi-arrow-right"></i></a></li>
+                            <li><a class="parg" href="terms.html" target="_blank">Terms & Conditions <i
+                                        class="bi bi-arrow-right"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-2  col-md-12 col-12">
+                    <blockquote class="twitter-tweet">
+                        <p lang="en" dir="ltr">Since 2007, you’ve explored the world with <a
+                                href="https://twitter.com/hashtag/StreetView?src=hash&amp;ref_src=twsrc%5Etfw">#StreetView</a>
+                            and rediscovered the places that mean the most to you. <br><br>From reliving past memories
+                            to looking ahead to new ones, here’s to 15 years. 🌎 <a
+                                href="https://t.co/lIkDn3xX0m">https://t.co/lIkDn3xX0m</a> <a
+                                href="https://t.co/A1zLTEDknR">pic.twitter.com/A1zLTEDknR</a></p>&mdash; Google Maps
+                        (@googlemaps) <a
+                            href="https://twitter.com/googlemaps/status/1529114202937229312?ref_src=twsrc%5Etfw">May 24,
+                            2022</a>
+                    </blockquote>
+                    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                </div>
+
+                <div class="lower_footer">
+                    <p class="slug">masterylawfirm@2022 . All Right Reserved</p>
+                    <div>
+                        <p class="slug">Made With by crazy idea</p><br>
+                        <p class="slug">Think Out of the box</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- finish footer -->
+
+    <!-- main js -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/main.js"></script>
+    <!-- main js -->
+    <!-- swiper -->
+    <script src="js/swiper-demos.js"></script>
+    <!-- swiper -->
+
+    <!-- animation -->
+    <script src="js/aos-anmite.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <!-- animation -->
+
+
+
+
+
+</body>
+
+</html>

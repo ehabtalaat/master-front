@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+
+<body lang="ar" dir="rtl">
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title> Blog</title>
+        <!-- main css -->
+        <link rel="stylesheet" href="css/all.min.css" />
+        <link rel="stylesheet" href="css/bootstrap.min.css" />
+        <link rel="stylesheet" href="scss/main.min.css" />
+        <!-- main css -->
+        <!-- responsive -->
+        <link rel="stylesheet" href="css/responsive.css">
+        <!-- responsive -->
+
+        <!-- animation -->
+        <link rel="stylesheet" href="css/aos-anmite.css" />
+        <!-- animation -->
+        <!-- ? Favicon -->
+           <link rel="icon" href="./image/logo-icon.ico" type="image" />
+
+        <!-- ? Favicon -->
+    </head>
+
+    <body>
+        <!---------------------- start loader -------------------------------------------->
+        <div id="preloader"></div>
+        <!---------------------- finish loader -------------------------------------------->
+        <!---------------------- start scroll-up -------------------------------------------->
+        <a id="button" class="scroll-up"><i class="bi bi-chevron-up"></i></a>
+        <!---------------------- finish scroll-up -------------------------------------------->
+
+        <!-- =========== ? NavBar =========== -->
+         <nav class="navbar navbar-expand-lg" id="navbar">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="image/logo black.jpg" alt="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about-us.html"> About us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">Our Services</a>
+
+                        <!-- strat dropdown -->
+                        <ul class="dropdown_service">
+                            <li class="dropdown_item_service">
+                                <a class="dropdown_link_service" href="service.html">
+                                    <img src="image/serv col1.png" alt="service">
+                                    <h6>Law Cases</h6>
+                                </a>
+                            </li>
+                            <li class="dropdown_item_service">
+                                <a class="dropdown_link_service" href="service.html">
+                                    <img src="image/serv ico2.png" alt="service">
+                                    <h6> Contract  Drafting</h6>
+                                </a>
+                            </li>
+
+                            <li class="dropdown_item_service">
+                                <a class="dropdown_link_service" href="service.html">
+                                    <img src="image/serv ico3.png" alt="service">
+                                    <h6> Leading  Businesses</h6>
+                                </a>
+                            </li>
+
+                            <li class="dropdown_item_service">
+                                <a class="dropdown_link_service" href="service.html">
+                                    <img src="image/serv ico4.png" alt="service">
+                                    <h6>  Foreign  Investment</h6>
+                                </a>
+                            </li>
+
+                            <li class="dropdown_item_service">
+                                <a class="dropdown_link_service" href="service.html">
+                                    <img src="image/serv ico5.png" alt="service">
+                                    <h6> ريادة الأعمال</h6>
+                                </a>
+                            </li>
+
+                            <li class="dropdown_item_service">
+                                <a class="dropdown_link_service" href="service.html">
+                                    <img src="image/serv ico6.png" alt="service">
+                                    <h6>   Commercial And  Company Services</h6>
+                                </a>
+                            </li>
+
+                            <li class="dropdown_item_service">
+                                <a class="dropdown_link_service" href="service.html">
+                                    <img src="image/serv ico7.png" alt="service">
+                                    <h6>  Bankruptcy And Liquidation </h6>
+                                </a>
+                            </li>
+
+                            <li class="dropdown_item_service">
+                                <a class="dropdown_link_service" href="service.html">
+                                    <img src="image/serv ico8.png" alt="service">
+                                    <h6>  Law
+                                        Cases </h6>
+                                </a>
+                            </li>
+
+                            <li class="dropdown_item_service">
+                                <a class="dropdown_link_service" href="#">
+                                    <img src="image/serv ico9.png" alt="service">
+                                    <h6>   Contract
+                                        Drafting </h6>
+                                </a>
+                            </li>
+
+                            <li class="dropdown_item_service">
+                                <a class="dropdown_link_service" href="#">
+                                    <img src="image/serv ico10.png" alt="service">
+                                    <h6> Foreign
+                                        Investment </h6>
+                                </a>
+                            </li>
+
+                        </ul>
+                        <!-- strat dropdown -->
+
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link"> legal library</a>
+                        <ul class="dropdown_service second">
+                            <li class="dropdown_item_service">
+                                <a class="dropdown_link_service" href="regulation.html">
+                                    <!-- <img src="image/serv col1.png" alt="blog"> -->
+                                    <h6>  Regulations and Regulations</h6>
+                                </a>
+                            </li>
+                            <li class="dropdown_item_service">
+                                <a class="dropdown_link_service" href="blog.html">
+                                    <!-- <img src="image/serv ico2.png" alt="BLOG"> -->
+                                    <h6> Blog</h6>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="connect.html"> Contact Us</a>
+                    </li>
+                </ul>
+                <div class="inquery_btn button">
+                    <a href="inqury.html" class="btn first"> Have a question ?</a>
+                </div>
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        العربية
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        <li><a class="dropdown-item" href="#"> English</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </nav>
+        <!-- =========== ? NavBar =========== -->
+
+        <!---------------------- start header -------------------------------------------->
+        <header style="background-image: url('image/Path\ 119.png') ;">
+            <div class="content">
+                <h1> legal library / Blog </h1>
+            </div>
+        </header>
+        <!---------------------- finish header -------------------------------------------->
+
+        <!---------------------- start blog -------------------------------------------->
+        <section class="blog_page">
+            <div class="container">
+                <div class="main_blog">
+                    <div class="row">
+                        <div class="col-lg-6 col-12">
+                            <figure>
+                                <img src="image/main-blog.png" alt="">
+                            </figure>
+                        </div>
+                        <div class="col-lg-6 col-12">
+                            <div class="content">
+                                <span class="date">
+                                    22 March , 2022
+                                </span>
+                                <h2 class="main_title">
+                                    Debts…. <br> Uncollected Or <br> Doubtful
+                                </h2>
+                                <p class="desc"> If You Need Any Help In Law Cases, You Will Need The Very Best Defense
+                                    Attorneys In KSA. We Are Especially Skilled In The Following Practice Areas. If You
+                                    Need Any Help In Law Cases, You Will Need The Very Best Defense Attorneys In KSA. We
+                                    Are Especially Skilled In The Following Practice Areas. <a href="single-blog.html">
+                                        Read more...</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="collect_blogs">
+                    <div class="row">
+                        <div class="col-lg-6  col-12">
+                            <div class="blog_box">
+                                <a href="single-blog.html">
+                                    <div class="img">
+                                        <img src="image/blog3.jpg" alt="BLOG">
+                                    </div>
+                                    <div class="content">
+                                        <span class="date">22 March , 2022</span>
+                                        <h2 class="text">Debts…. Uncollected Or Doubtful</h2>
+                                        <p class="parg">Lorem Ipsum Dolor Sit Amet, Consetetur Sadipscing Elitr, Sed
+                                            Diam Nonumy Eirmod Tempor Invidunt Ut Labore Et Dolore Magna Aliquyam Erat,
+                                            Sed Diam
+                                        </p>
+
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-6  col-12">
+                            <div class="blog_box">
+                                <a href="single-blog.html">
+                                    <div class="img">
+                                        <img src="image/blog2.jpg" alt="BLOG">
+                                    </div>
+                                    <div class="content">
+                                        <span class="date">22 March , 2022</span>
+                                        <h2 class="text">Debts…. Uncollected Or Doubtful</h2>
+                                        <p class="parg">Lorem Ipsum Dolor Sit Amet, Consetetur Sadipscing Elitr, Sed
+                                            Diam Nonumy Eirmod Tempor Invidunt Ut Labore Et Dolore Magna Aliquyam Erat,
+                                            Sed Diam
+                                        </p>
+
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- <div class="col-lg-4 col-md-12 col-12">
+                            <div class="categories_section">
+                                <div class="categories">
+                                    <h6 class="text">التصنيفات</h6>
+                                    <ul>
+                                        <li><a class="parg" href="#">جرائم الكترونية</a></li>
+                                        <li><a class="parg" href="#">الشركات</a></li>
+                                        <li><a class="parg" href="#">الديون</a></li>
+                                        <li><a class="parg" href="#">الاستثمار الاجنبي</a></li>
+                                    </ul>
+                                </div>
+    
+                                <div class="other">
+                                    <h6 class="text">آخر </h6>
+                                    <a href="#">
+                                        <div class="content">
+                                            <img src="image/other1.jpg" alt="">
+                                            <div class="data">
+                                                <h6 class="text">الديون…. الغير المحصلة أو المشكوك
+                                                    في تحصيلها</h6>
+                                                <span class="date parg">
+                                                    <i class="bi bi-alarm"></i>
+                                                    يناير 22 , 2022
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+    
+                            </div>
+                        </div> -->
+
+                        <nav aria-label="Page navigation example">
+                            <ul class="pagination">
+                                <li class="page-item disabled">
+                                    <a class="page-link" href="#" aria-label="Previous" aria-disabled="">
+                                        <span aria-hidden="true"><i class="bi bi-arrow-left"></i></span>
+                                    </a>
+                                </li>
+                                <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                <li class="page-item">
+                                    <a class="page-link" href="#" aria-label="Next">
+                                        <span aria-hidden="true"><i class="bi bi-arrow-right"></i></span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!---------------------- finish blog -------------------------------------------->
+        <!-- Strat footer -->
+           <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-12 col-12">
+                    <div class="logo">
+                        <img src="image/logo.png" alt="logo">
+                    </div>
+                    <div class="expert">
+                        <p>
+                            Master Law Firm to facilitate all legal solutions through our extensive professional
+                            experience and tireless teamwork
+                        </p>
+                    </div>
+
+                    <div class="qpr" id="content">
+                        <h6> Mastery Profile</h6>
+                    </div>
+                    <div id="editor"></div>
+                    <button id="cmd"><img src="image/qpr.png" alt="qpr"> </button>
+                    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.5.3/jspdf.debug.js"
+                        integrity="sha384-NaWTHo/8YCBYJ59830LTz/P4aQZK1sS0SneOgAvhsIl3zBu8r9RevNg5lHCHAuQ/"
+                        crossorigin="anonymous"></script>
+
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-12">
+                    <div class="comuncation_information">
+                        <h2 class="header_footer"> Addresses</h2>
+                        <div class="boxes">
+                            <div class="box">
+                                <h6>Address :</h6>
+                                <div>
+                                    <p class="parg">
+                                        Kingdom of Saudi Arabia, 6858 - 12361 Riyadh Juma Center Office 503
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="box">
+                                <h6>Phone Num: </h6>
+                                <div>
+                                    <ul>
+                                        <li>
+                                            <a class="parg" href="tel:01093140277"> 0109654245125414 </a>
+                                        </li>
+                                        <li>
+                                            <a class="parg" href="tel:01093140277"> 0109654245125414 </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="box">
+                                <h6>E-mail:</h6>
+                                <div>
+                                    <a class="parg" href="mailto:someone@yoursite.com"> mt7899@gmail </a>
+                                </div>
+                            </div>
+
+                        </div>
+                        <ul class="social_icon">
+                            <li><a target="__blank" href="#">
+                                    <i class="bi bi-linkedin"></i>
+                                </a></li>
+
+                            <li><a target="__blank" href="#">
+                                    <i class="bi bi-facebook"></i>
+                                </a></li>
+
+                            <li><a target="__blank" href="#">
+                                    <i class="bi bi-twitter"></i>
+                                </a></li>
+                                <li><a target="__blank" href="#">
+                                    <i class="bi bi-instagram"></i>
+                                </a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="important_link">
+                        <h2 class="header_footer"> Quick Links</h2>
+                        <ul>
+                            <li><a class="parg" href="index.html" target="_blank"> Home<i
+                                        class="bi bi-arrow-right"></i></a></li>
+                            <li><a class="parg" href="about-us.html" target="_blank"> About Us <i
+                                        class="bi bi-arrow-right"></i></a></li>
+                            <li><a class="parg" href="service.html" target="_blank">Our Services <i
+                                        class="bi bi-arrow-right"></i></a></li>
+                            <li><a class="parg" href="blog.html" target="_blank"> Blog<i
+                                        class="bi bi-arrow-right"></i></a></li>
+                            <li><a class="parg" href="connect.html" target="_blank"> Contact Us <i
+                                        class="bi bi-arrow-right"></i></a></li>
+                            <li><a class="parg" href="faq.html" target="_blank">FAQ <i
+                                        class="bi bi-arrow-right"></i></a>
+                            </li>
+                            <li><a class="parg" href="privacy.html" target="_blank">Privacy Policy <i
+                                        class="bi bi-arrow-right"></i></a></li>
+                            <li><a class="parg" href="terms.html" target="_blank">Terms & Conditions <i
+                                        class="bi bi-arrow-right"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-12 col-12">
+                    <blockquote class="twitter-tweet">
+                        <p lang="en" dir="ltr">Since 2007, you’ve explored the world with <a
+                                href="https://twitter.com/hashtag/StreetView?src=hash&amp;ref_src=twsrc%5Etfw">#StreetView</a>
+                            and rediscovered the places that mean the most to you. <br><br>From reliving past memories
+                            to looking ahead to new ones, here’s to 15 years. 🌎 <a
+                                href="https://t.co/lIkDn3xX0m">https://t.co/lIkDn3xX0m</a> <a
+                                href="https://t.co/A1zLTEDknR">pic.twitter.com/A1zLTEDknR</a></p>&mdash; Google Maps
+                        (@googlemaps) <a
+                            href="https://twitter.com/googlemaps/status/1529114202937229312?ref_src=twsrc%5Etfw">May 24,
+                            2022</a>
+                    </blockquote>
+                    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                </div>
+
+                <div class="lower_footer">
+                    <p class="slug">masterylawfirm@2022 . All Right Reserved</p>
+                    <div>
+                        <p class="slug">Made With     by crazy idea</p><br>
+                        <p class="slug">Think Out of the box</p>
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+    </footer>
+        <!-- finish footer -->
+
+
+        <!-- main js -->
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery-3.5.1.min.js"></script>
+        <script src="js/main.js"></script>
+        <!-- main js -->
+
+        <!-- animation -->
+        <script src="js/aos-anmite.js"></script>
+        <script>
+            AOS.init();
+        </script>
+        <!-- animation -->
+
+
+    </body>
+
+    </html>
